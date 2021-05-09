@@ -1,0 +1,43 @@
+{
+    "name": "hypertube",
+    "version": "1.0.0",
+    "description": "Hypertube",
+    "main": "server.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "bcryptjs": "^2.4.3",
+        "cloudscraper": "^4.6.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "image-type": "^4.1.0",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.2",
+        "mysql2": "^2.1.0",
+        "node-cron": "^2.0.3",
+        "nodemailer": "^6.4.2",
+        "nodemon": "^2.0.2",
+        "passport": "^0.4.1",
+        "passport-42": "^1.2.6",
+        "passport-github": "^1.1.0",
+        "passport-gitlab2": "^5.0.0",
+        "passport-google-oauth20": "^2.0.0",
+        "read-chunk": "^3.2.0",
+        "request": "^2.88.2",
+        "rimraf": "^3.0.2",
+        "torrent-stream": "^1.2.0",
+        "uniqid": "^5.2.0",
+        "validator": "^12.2.0",
+        "yifysubtitles": "^2.1.5",
+        "yifysubtitles-api": "^1.0.0"
+    }
+}

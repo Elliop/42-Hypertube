@@ -1,0 +1,24 @@
+{
+  "name": "Frontend",
+  "version": "1.0.0",
+  "description": "My badass Nuxt.js project",
+  "author": "asalah",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie-universal-nuxt": "^2.1.2",
+    "cookies": "^0.8.0",
+    "jwt-decode": "^2.2.0",
+    "nuxt": "^2.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
